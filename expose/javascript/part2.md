@@ -1,4 +1,4 @@
-**12**
+**12**  
 A: `student.name`  
 B: `let key='Grad Year'    
     student[key]`  
