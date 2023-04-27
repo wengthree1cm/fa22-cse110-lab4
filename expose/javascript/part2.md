@@ -31,5 +31,7 @@ F: true because both of them are boolean value of `true` so they are qeual
  but ifwe compare two different type with `===`, we will get a false since it also compare the type of the two things. 
 
 **17**
+The result will be `[2,4,6]`. First in each for loop, it loop through all the value of the `array`. And in each loop, we will execute function `doSomething` which is passes into the second parameter. In the function, it will return the value^2 and then we will push this new value into the new array. Finally we return the result array. 
 
 **19**
+
