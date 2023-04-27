@@ -34,4 +34,7 @@ F: true because both of them are boolean value of `true` so they are qeual
 The result will be `[2,4,6]`. First in each for loop, it loop through all the value of the `array`. And in each loop, we will execute function `doSomething` which is passes into the second parameter. In the function, it will return the value^2 and then we will push this new value into the new array. Finally we return the result array. 
 
 **19**
+it will print number 1,4,3,2 respectively
+it first call `console.log(1)` then `console.log(2)` is set to print after a delay of 1000 milliseconds, `console.log(3)` has delay 0 but it will still be added to the queue so it will run after `console.log(4)` when the call stack is empty. So we print 1 and then 4 and then 3 and then 2.
+
 
