@@ -1,1 +1,1 @@
-![result-calculateSum.png](MyLovelyImage.png "some title")
+![result-calculateSum.png](result-calculateSum.png)
