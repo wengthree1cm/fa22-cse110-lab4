@@ -25,15 +25,15 @@ D: false `===` means strict equal operator and it will return false of two diffe
 E: false `==` will convert `true` to number 1 and 1 is not equal to 2 so false   
 F: true because both of them are boolean value of `true` so they are qeual  
 
-**15**
+**15**  
  `==` does the type conversion of the operands before comparison, whereas `===` compares the values as well as the data types of the operands.  
  So if we compare two different type with `==` will convert them to the same type before comparison and it is possible to get a result of true 
  but if we compare two different type with `===`, we will get a false since it also compare the type of the two things. 
 
-**17**
+**17**  
 The result will be `[2,4,6]`. First in each for loop, it loop through all the value of the `array`. And in each loop, we will execute function `doSomething` which is passes into the second parameter. In the function, it will return the value^2 and then we will push this new value into the new array. Finally we return the result array. 
 
-**19**
+**19**  
 it will print number 1,4,3,2 respectively
 it first call `console.log(1)` then `console.log(2)` is set to print after a delay of 1000 milliseconds, `console.log(3)` has delay 0 but it will still be added to the queue so it will run after `console.log(4)` when the call stack is empty. So we print 1 and then 4 and then 3 and then 2.
 
