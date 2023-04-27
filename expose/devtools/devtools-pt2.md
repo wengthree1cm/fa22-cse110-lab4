@@ -4,7 +4,8 @@
 **result-dataType.png**  
 ![result-dataType.png](result-dataType.png)
 
-1. the bug is that `num1` and `num2` are assigned string value and that is why the result is concatenation
+**1.**   
+the bug is that `num1` and `num2` are assigned string value and that is why the result is concatenation  
 
 **2.**  
 **fix.png**  
