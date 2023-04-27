@@ -10,4 +10,5 @@
 **fix.png**  
 ![fix.png](fix.png)  
 
-I fixed this by adding a `+` in ront of `num1` and `num2` in line 11 so that I change typeof `num1` and `num2` to number. 
+I fixed this by adding a `+` in ront of `num1` and `num2` in line 11 so when I assign `result` equal to the sum of `num1` and `num2`, they  
+are added together as number so that  the `result` has typeof number
