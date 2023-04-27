@@ -17,7 +17,7 @@ F: `0` because `false` and `null` are both considered as number `0` in add arith
 G: `'3undefined'` because `undefined` is considered as string `'undefined'` in a stirng contatenation  
 H: `NaN` because when performing arithmetic operation with `undefined` the result wil be special value `NaN`  
 
-**14**
+**14**  
 A: true because when we use `>` to compare a string, the string is coverted to number   
 B: true   when we compare two string use `<`, we compare the UTF-16 code unit value and here `2` is less than `1` so true   
 C: true  when we compare string we convert the string to number before comparison   
